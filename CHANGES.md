@@ -1,6 +1,12 @@
 ChangeLog
 =========
 
+# 0.3.1
+* Remove `default_executable=` from gemspec to please rubygems >=1.8.
+
+# 0.3.0
+* Switch templates to rspec2. (akeem)
+
 # 0.2.4
 * Use the `RACK_ENV` environment variable to set the
   sinatra environment to 'test'. (See issue #1)
